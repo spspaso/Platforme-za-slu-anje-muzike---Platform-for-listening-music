@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="objavljuje" directorySegmentName="seg_0" id="BDE8733C-EE05-C767-8822-2EEDB29D09FA">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-14 19:08:16 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<sourcePk>421EB2FB-9F86-68E7-B154-69645D9BA387</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A746A2C5-8716-ECD0-9E64-E1D1254FD5F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BDDA963-F2D8-8C60-3960-E0BD8FDE28FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

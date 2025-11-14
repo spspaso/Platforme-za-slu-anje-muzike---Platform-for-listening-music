@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6EAB278-B84F-CFA0-2AB7-429AF515B88F" name="Korisnik">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 19:02:59 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_KORISNIKA" id="332B11F8-6797-64EA-B813-6F665B42DB9A">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 19:04:53 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERNAME" id="3272FAFC-76BB-2FA1-26D0-05B5EBC3859F">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 19:04:53 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="205E90DA-D5FD-F676-A2C6-6E60E197387A">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 19:04:54 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREMIUM" id="1B1A1105-929F-063A-0E4B-462F85C4A09F">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 19:04:54 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C62A052F-A107-DB5A-3BD4-CAF04A1EFDEE" name="KORISNIK PK">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 19:07:13 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>332B11F8-6797-64EA-B813-6F665B42DB9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

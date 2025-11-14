@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E583F0E-9BA4-5F19-B696-CADEB1F12FDA" name="Reklama">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:09:07 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_REKLAME" id="F5D64520-7A24-26A7-396C-4EA868BD8365">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:09:49 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZIV" id="D6D56BBA-38E5-412B-151E-C652A32C0427">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:10:07 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENA_RSD" id="C9E6F81A-466B-15BB-5866-E3C3DB7C8C40">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:10:07 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRAJANJE" id="694BF6A1-311F-194D-820F-5921034887DF">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:11:16 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2FB7D9B-4BDE-266B-0CE9-C59B4C4FCAC7" name="REKLAME PK">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:10:02 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5D64520-7A24-26A7-396C-4EA868BD8365</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

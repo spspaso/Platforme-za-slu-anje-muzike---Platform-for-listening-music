@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A746A2C5-8716-ECD0-9E64-E1D1254FD5F3" name="Izvodjac">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:42:48 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_IZVODJACA" id="9EA5D779-AC42-6C35-9073-7B54818C3720">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:45:30 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="31CF45AA-63CB-1FAB-B5D2-0B9B4CEFA311">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:43:13 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KRATKA_BIOGRAFIJA" id="0FC0024E-563D-207A-5842-B5A5073AEC14">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:43:14 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BEND" id="626CB5C1-9045-A3B6-C9E0-C4B2F48C0BE7">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:43:14 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="421EB2FB-9F86-68E7-B154-69645D9BA387" name="Izvođači PK">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:46:14 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EA5D779-AC42-6C35-9073-7B54818C3720</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

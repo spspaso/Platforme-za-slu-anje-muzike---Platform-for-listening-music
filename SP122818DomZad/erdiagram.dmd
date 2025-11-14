@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erdiagram" id="2F456227-226E-CAAF-0A06-168A06BE7615" version="3.5">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:37:07 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2F456227-226E-CAAF-0A06-168A06BE7615</designId>
+</OSDM_Design>

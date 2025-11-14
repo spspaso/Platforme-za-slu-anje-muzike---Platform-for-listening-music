@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37106C89-EDFE-DA84-D4C9-6D8A74545703" name="Pesma">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:53:56 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PESME" id="1A8B61AC-D7A6-37C5-C42F-CC9C2CBBECF8">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:54:08 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZIV" id="7D40D12D-134D-BC53-64CC-2A9FF633F577">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:54:09 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRAJANJE" id="5F2A68D6-8DF1-B356-48EF-06BA4AA9389B">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:54:09 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ALBUMA" id="21E5E128-E5D2-BC1F-1FC4-A7605AE99AEC">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 20:39:36 UTC</createdTime>
+<generatorID>1D42EA5E-0858-F4A5-98AF-6FE33F76B2F5</generatorID>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<referedAttribute>80C648AB-953B-E38F-4F9B-4F4A5694894B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E217E180-A870-0491-EC76-741F259568E0" name="PESME PK">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-13 18:54:38 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A8B61AC-D7A6-37C5-C42F-CC9C2CBBECF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

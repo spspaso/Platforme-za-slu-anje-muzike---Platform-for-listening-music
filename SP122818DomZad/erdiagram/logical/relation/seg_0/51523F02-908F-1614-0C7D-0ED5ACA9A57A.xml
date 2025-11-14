@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pesmaPustanje" directorySegmentName="seg_0" id="51523F02-908F-1614-0C7D-0ED5ACA9A57A">
+<createdBy>Acer</createdBy>
+<createdTime>2025-11-14 19:09:39 UTC</createdTime>
+<ownerDesignName>erdiagram</ownerDesignName>
+<engineerTo>
+<item key="A8ED9443-2E7E-39B3-CD77-49E26633F582" value="true"/>
+</engineerTo>
+<sourcePk>E217E180-A870-0491-EC76-741F259568E0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37106C89-EDFE-DA84-D4C9-6D8A74545703</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A117E45E-77CB-2F86-0842-6BFB935A2F3C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
