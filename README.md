@@ -1,5 +1,6 @@
 # Platforme-za-slu-anje-muzike---Platform-for-listening-music
 Zadatak za ispit Baze podataka 1 na PMF, UNS. Opisan je informacioni sistem platforme za slušanje muzike u SQLDeveloper
+Osvojeno je  45/45 bodova. 
 
 
 Platforma sadrži izvođače i sistem čuva podatke o njihovom imenu, kratkoj biografiji i da
